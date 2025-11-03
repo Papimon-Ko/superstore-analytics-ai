@@ -5,7 +5,6 @@
 
 <div align="center">
 
-# 🧠 **Superstore Analytics + AI Insights Dashboard**
 
 > _“Data never sleeps — and neither do we.”_  
 > A futuristic project blending **Python**, **SQL**, **Power BI**, and **AI** to uncover hidden business intelligence.  
@@ -29,45 +28,6 @@
 
 ---
 
-## 🧩 Project Structure
-
-superstore-analytics-ai/
-
-│
-
-├── data/
-
-│   ├── superstore.csv
-
-│   └── sales_clean.csv   
-
-├── notebooks/
-
-│   ├── 1_data_cleaning.ipynb   
-
-│   ├── 2_sql_analysis.ipynb 
-
-│   └── 4_ai_insights.ipynb  
-
-│
-
-├── ai_tools/
-
-│   └── insight_generator.py   
-
-├── dashboard/
-
-│   └── superstore_dashboard.pbix  
-
-│
-
-├── .env     
-
-├── .gitignore 
-
-└── README.md                      
-
-
 ## 🧠 Data Flow
 
 ```mermaid
@@ -77,4 +37,16 @@ B --> C[SQLite Queries 🧮]
 C --> D[Power BI Dashboard 📊]
 C --> E[AI Insight Generator 🤖]
 E --> F[Actionable Insights 💡]
+```
 
+## ⚡ Key Features
+
+🧹 Data Cleaning — Handle missing values, fix date formats, and add derived metrics
+
+🧮 SQL Query — Analyze total sales, profit margin, and top-performing customers
+
+📊 Power BI Dashboard — Interactive visuals: Sales by Category, Region, Year
+
+🤖 AI Insight Generator — Python + OpenAI model automatically summarizes key findings in Thai + English
+
+🧠 Cyberpunk Design — Futuristic style README and data storytelling
