@@ -1,0 +1,58 @@
+# ----------------------------------------
+# 💾 DATA & ENVIRONMENT
+# ----------------------------------------
+# ไฟล์ข้อมูลจริง (ไม่ควรอัปขึ้น GitHub)
+data/*
+!data/README.md
+*.csv
+*.db
+*.xlsx
+*.zip
+
+# เก็บ API Key, Password, Secret ต่าง ๆ
+.env
+.env.*
+
+# Generated / draft files
+AI_Gen.txt
+
+# ----------------------------------------
+# 🐍 PYTHON
+# ----------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
+*.log
+*.bak
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# ----------------------------------------
+# 🧠 NOTEBOOK & MODEL
+# ----------------------------------------
+*.model
+*.pkl
+*.h5
+*.joblib
+
+# ----------------------------------------
+# 🧱 VISUALIZATION / OUTPUT
+# ----------------------------------------
+*.pbix
+*.png
+*.pdf
+
+# ----------------------------------------
+# ⚙️ VS Code / IDE
+# ----------------------------------------
+.vscode/
+.idea/
