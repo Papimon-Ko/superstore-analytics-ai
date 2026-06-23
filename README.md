@@ -5,6 +5,9 @@
 ![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-4C9BE8)
 ![SQL](https://img.shields.io/badge/SQL-SQLite-003B57?logo=sqlite&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi&logoColor=black)
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io)
+[![LangChain](https://img.shields.io/badge/LangChain-Agent-1C3C3C?logo=langchain)](https://langchain.com)
+[![Groq](https://img.shields.io/badge/Groq-LLM-F55036)](https://groq.com)
 
 An end-to-end data analytics project built on the Sample Superstore dataset — covering data cleaning, SQL analysis, interactive dashboards, and AI-generated insights. Built as a portfolio piece for a Data Analyst role.
 
@@ -82,32 +85,55 @@ Five business-focused charts:
 ### Section 4 — Summary Report
 Business-style written report with 5 findings, 5 ranked recommendations, and an honest data limitations section.
 
+## DataChat — AI-Powered Data Analysis Agent
+An AI agent that lets you analyze the Superstore dataset using natural language — no SQL or coding required. Ask business questions in Thai or English and get instant answers.
+
+## 🎯 What It Does
+Instead of writing queries or digging through spreadsheets, you simply ask:
+
+> *"Which product category has the highest profit margin?"*
+> *"สินค้าไหนขายดีที่สุด?"*
+> *"Show me the top 3 best-selling products"*
+
+The agent interprets the question, analyzes the data, and responds in plain language.
+
 ---
 
 ## Setup & Running
 
 ### 1. Clone the repository
-```bash
-git clone https://github.com/<your-username>/superstore-analytics-ai.git
+git clone https://github.com/Papimon-Ko/superstore-analytics-ai.git
 cd superstore-analytics-ai
-```
 
 ### 2. Install dependencies
-```bash
 pip install -r requirements.txt
-```
 
 ### 3. Download the dataset
-The raw data file is not included in this repository (see [`data/README.md`](data/README.md) for instructions).  
-Place the downloaded file at: `data/Sample - Superstore.csv`
+The raw data file is not included in this repository (see data/README.md for instructions).
+Place the downloaded file at: data/Sample - Superstore.csv
 
-### 4. Run the notebooks
-```bash
+### 4. Set up API key
+Create a .env file and add:
+GROQ_API_KEY=your_groq_api_key_here
+
+Get your free API key at console.groq.com
+
+### 5. Run the notebooks
 jupyter notebook
-```
-Open `superstore_eda_report.ipynb` and run all cells (`Kernel → Restart & Run All`).
+
+Open superstore_eda_report.ipynb and run all cells (Kernel → Restart & Run All).
+
+### 6. Run the AI Chat app
+streamlit run app.py
 
 ---
+
+## Example DataChat
+<img width="1914" height="722" alt="data" src="https://github.com/user-attachments/assets/3b620c51-604d-4d0f-bbd8-cf72e395fb73" />
+<img width="1916" height="986" alt="ask" src="https://github.com/user-attachments/assets/e1a470c0-5b11-45b5-bc1b-46e357f7b9be" />
+<img width="1905" height="992" alt="ask2" src="https://github.com/user-attachments/assets/f79b2581-66bb-4962-908f-77ba897484b3" />
+
+
 
 ## Tech Stack
 
@@ -120,7 +146,11 @@ Open `superstore_eda_report.ipynb` and run all cells (`Kernel → Restart & Run 
 | SQLite / sqlite3 | SQL analysis |
 | Power BI Desktop | Interactive dashboard |
 | OpenAI API (GPT-4o-mini) | AI-generated insights |
-| Jupyter Notebook | Interactive development environment |
+| Jupyter Notebook | Interactive development environment | Streamlit | Web UI & deployment |
+| LangChain | AI Agent framework |
+| Groq (Llama 3 70B) | LLM inference |
+| Pandas | Data manipulation |
+| Python 3.8+ | Core language |
 
 ---
 
