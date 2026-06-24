@@ -88,7 +88,7 @@ Business-style written report with 5 findings, 5 ranked recommendations, and an 
 ## DataChat — AI-Powered Data Analysis Agent
 An AI agent that lets you analyze the Superstore dataset using natural language — no SQL or coding required. Ask business questions in Thai or English and get instant answers.
 
-## 🎯 What It Does
+## What It Does
 Instead of writing queries or digging through spreadsheets, you simply ask:
 
 > *"Which product category has the highest profit margin?"*
@@ -96,6 +96,15 @@ Instead of writing queries or digging through spreadsheets, you simply ask:
 > *"Show me the top 3 best-selling products"*
 
 The agent interprets the question, analyzes the data, and responds in plain language.
+
+## Live Demo
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://superstore-analytics-ai-ezmanj7hi8eujvuqy7s4zy.streamlit.app/)
+
+## Example DataChat
+<img width="1914" height="722" alt="data" src="https://github.com/user-attachments/assets/3b620c51-604d-4d0f-bbd8-cf72e395fb73" />
+<img width="1916" height="986" alt="ask" src="https://github.com/user-attachments/assets/e1a470c0-5b11-45b5-bc1b-46e357f7b9be" />
+<img width="1905" height="992" alt="ask2" src="https://github.com/user-attachments/assets/f79b2581-66bb-4962-908f-77ba897484b3" />
+
 
 ---
 
@@ -127,11 +136,6 @@ Open superstore_eda_report.ipynb and run all cells (Kernel → Restart & Run All
 streamlit run app.py
 
 ---
-
-## Example DataChat
-<img width="1914" height="722" alt="data" src="https://github.com/user-attachments/assets/3b620c51-604d-4d0f-bbd8-cf72e395fb73" />
-<img width="1916" height="986" alt="ask" src="https://github.com/user-attachments/assets/e1a470c0-5b11-45b5-bc1b-46e357f7b9be" />
-<img width="1905" height="992" alt="ask2" src="https://github.com/user-attachments/assets/f79b2581-66bb-4962-908f-77ba897484b3" />
 
 
 
