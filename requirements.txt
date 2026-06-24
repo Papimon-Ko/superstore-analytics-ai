@@ -6,3 +6,11 @@ jupyterlab>=3.6.0
 notebook>=6.5.0
 openpyxl>=3.0.0
 openai>=1.0.0
+streamlit
+langchain
+langchain-groq
+langchain-experimental
+langchain-community
+pandas
+python-dotenv
+tabulate
